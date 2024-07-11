@@ -1,5 +1,5 @@
 header img{
-width: 15%;
+width: 13%;
 margin: 0 auto;
 display: block;
 padding: 5px;
@@ -7,6 +7,7 @@ padding: 5px;
 body
 {
    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+   scroll-behavior:smooth;
 }
 .video-container {
     width: 60%;
@@ -18,6 +19,27 @@ body
     padding: 35% 0 0 0;
     position: relative;
     padding-top: 0%;
+}
+nav{
+    margin: 1% auto;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 1%;
+    font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
 }
 footer{
     margin: 5% auto;
