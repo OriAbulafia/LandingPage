@@ -306,6 +306,11 @@ article button a:hover{
     .card1 b{
         font-size: 40px;
     }
+    .card1 img{
+        display: block; 
+        width: 100%; 
+        height: auto;
+    };
     .info{
         display: block;
         width: 90%;
