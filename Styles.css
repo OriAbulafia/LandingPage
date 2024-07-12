@@ -1,3 +1,7 @@
+@font-face {
+    font-family: myFont;
+    src: url(levin.ttf);
+}
 header img{
 width: 13%;
 margin: 0 auto;
@@ -8,13 +12,12 @@ body
 {
    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
    scroll-behavior:smooth;
-   background-color: #6e37bf;
-   background-image: linear-gradient(180deg, #6e37bf 26%, #C850C0 49%, #FFCC70 100%);
+   background-color: #fad9d2;
 }
 .video-container {
     width: 60%;
     margin: 0 auto;
-    display: block;
+    display: block; 
     position: relative;
 }
 .responsive-padding {
@@ -37,7 +40,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #f3cd42;
+    color: #A47B2D;
     font-size: 17px;
 }
 nav ul li a:hover{
@@ -110,23 +113,22 @@ main
     content: none;
 }
 .card1{
-    border: 2px solid #FAD961;   
+    border: 2px solid #A47B2D;   
     width: 30%;
     display: inline-block;
     margin: 10px 1%;
     margin-top: 0%;
-    box-shadow: #f3cd42 0 0 15px;
+    box-shadow: #A47B2D 0 0 15px;
 }
 .card1 b{
     text-align: right;
     font-size: 25px;
-    color: black;
-    background-color: #FAD961;
-    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+    color: white;
+    background-color: #A47B2D;
     right: 0;
     padding: 3px;
-    border-left: 3px solid #F76B1C;
     direction: rtl;
+    font-weight: lighter;
 }
 .title{
     position: absolute;
@@ -144,12 +146,12 @@ main
 }
 .carousel-control-next-icon
 {
-    background-color: #F76B1C;
+    background-color: #A47B2D;
 }
 
 .carousel-control-prev-icon
 {
-    background-color: #F76B1C;
+    background-color: #A47B2D;
 }
 .carousel-item {
     transition: transform 0.20s ease, opacity 2s ease !important;
@@ -163,14 +165,19 @@ article{
 article h1{
     font-size: 45px;
     padding: 10px;
+    padding-bottom: 20px;
+    color: #A47B2D;
 }
 article p{
     font-size: 30px;
-    padding-bottom: 10px;
 }
 article a{
     text-decoration: none;
     color: black;
+}
+article .contact
+{
+    padding-bottom: 15px;
 }
 article a:hover{
     text-decoration: underline;
@@ -179,8 +186,7 @@ article a:hover{
 
 article button
 {    
-    background-color: #FAD961;
-    background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
+    background-color: #A47B2D;
     border-radius: 8px;
     border-style: none;
     box-sizing: border-box;
@@ -200,21 +206,24 @@ article button
 }
 article button:hover
 {
-    box-shadow: #FAD961 0 1px 30px;
+    box-shadow: #A47B2D 0 1px 30px;
     transition-duration: .1s;
 }
 article button a{
     text-decoration: none;
-    color: black;
+    color: white;
+}
+article button a:hover{
+    text-decoration: underline;
+    color: white;
 }
 .info{
     display: flex;
     width: 60%;
     margin: 20px auto;
-    border: 2px solid #C850C0;
-    background-color: #6e37bf;
-    background-image: linear-gradient(0deg, #C850C0 0%, #6e37bf 100%);
-    box-shadow: #6e37bf 0 0 15px;
+    border: 2px solid #A47B2D;
+    background-color: #A47B2D;
+    box-shadow: #A47B2D 0 0 15px;
 }
 .info img{
     width: 40%;
@@ -230,16 +239,15 @@ article button a{
     color: white;
     text-align: center;
     display: block;
-    text-decoration:underline;
     direction: rtl;
 }
 .info p{
-    font-size: 15px;
+    font-size: 16px;
     color: #FEFBD8;
     display: block;
     padding-left: 10px;
     padding-right: 10px;
-    font-weight: bold;
+    font-weight: lighter;
     direction: rtl;
 }
 
