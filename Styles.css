@@ -158,7 +158,6 @@ main
     
     transition: transform 1s ease-in-out, opacity 1.5s ease-in-out !important;
     will-change: transform, opacity;
-    
 }
 article{
     width: 100%;
@@ -295,12 +294,14 @@ article button a:hover{
     main{
         width: 100%;
         padding-top: 0;
+        height: 100%;
     }
     .card1{
         width: 90%;
         margin: 0 auto;
         display: block;
         margin-bottom: 20px;
+        height: 100%;
     }
     .card1 b{
         font-size: 40px;
