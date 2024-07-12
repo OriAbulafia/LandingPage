@@ -2,7 +2,7 @@ header img{
 width: 13%;
 margin: 0 auto;
 display: block;
-padding: 10px 5px;
+padding-top: 20px;
 }
 body
 {
@@ -10,7 +10,6 @@ body
    scroll-behavior:smooth;
    background-color: #6e37bf;
    background-image: linear-gradient(180deg, #6e37bf 26%, #C850C0 49%, #FFCC70 100%);
-   
 }
 .video-container {
     width: 60%;
@@ -24,7 +23,7 @@ body
     padding-top: 0%;
 }
 nav{
-    margin: 1% auto;
+    margin: 0.7% auto;
 }
 nav ul{
     display: flex;
@@ -74,7 +73,7 @@ color: black;
 font-size: 20px;
 }
 footer .rights{
-    font-weight:400;
+font-weight:400;
 text-align: center;
 display: block;
 color: black;
@@ -127,11 +126,12 @@ main
     right: 0;
     padding: 3px;
     border-left: 3px solid #F76B1C;
+    direction: rtl;
 }
 .title{
     position: absolute;
     right: 0;
-    bottom:20px;
+    bottom:25px;
 }
 .card1 p{
     text-align: right;
@@ -168,7 +168,14 @@ article p{
     font-size: 30px;
     padding-bottom: 10px;
 }
-
+article a{
+    text-decoration: none;
+    color: black;
+}
+article a:hover{
+    text-decoration: underline;
+    color: black;
+}
 
 article button
 {    
@@ -202,12 +209,12 @@ article button a{
 }
 .info{
     display: flex;
-    width: 50%;
+    width: 60%;
     margin: 20px auto;
     border: 2px solid #C850C0;
     background-color: #6e37bf;
-background-image: linear-gradient(270deg, #6e37bf 26%, #C850C0 49%, #FFCC70 100%);
-    
+    background-image: linear-gradient(0deg, #C850C0 0%, #6e37bf 100%);
+    box-shadow: #6e37bf 0 0 15px;
 }
 .info img{
     width: 40%;
@@ -220,16 +227,20 @@ background-image: linear-gradient(270deg, #6e37bf 26%, #C850C0 49%, #FFCC70 100%
 }
 .info b{
     font-size: 35px;
-    color: #FAD961;
+    color: white;
     text-align: center;
     display: block;
-    text-decoration: underline;
+    text-decoration:underline;
+    direction: rtl;
 }
 .info p{
-    font-size: 25px;
+    font-size: 15px;
     color: #FEFBD8;
     display: block;
-    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    direction: rtl;
 }
 
 /* @media screen and (max-width: 768px){
