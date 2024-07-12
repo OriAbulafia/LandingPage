@@ -263,24 +263,8 @@ article button a:hover{
         padding-top: 10px;
     }
     nav{
-        width: 100%;
-        margin: 0 auto;
-        display: block;
+        display: none;
     }
-    nav a{
-        width: 32.5%;
-        padding-bottom: 0%;
-    }
-    /* nav a{
-        display: inline-block;
-        text-decoration: none;
-        color: #A47B2D;
-        text-align: center;
-        font-weight: bold;
-        font-size: 17px;
-        width: 16%;
-        padding: 2% 0.5%;
-    } */
     .video-container {
         padding-top: 3%;
         width: 100%;
@@ -290,7 +274,7 @@ article button a:hover{
     }
     article h1
     {
-        font-size: 35px;
+        font-size: 30px;
         padding-top: 0;
     }
     article p
