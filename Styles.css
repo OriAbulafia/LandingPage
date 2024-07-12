@@ -257,7 +257,45 @@ article button a:hover{
     font-weight: lighter;
     direction: rtl;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 470px)
+{
+    article h1
+    {
+        font-size: 25px;
+    }
+    article p
+    {
+        font-size: 15px;
+    }
+    .card1 b{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 420px)
+{
+    article h1
+    {
+        font-size: 22px;
+    }
+    article p
+    {
+        font-size: 15px;
+    }
+    .card1 b{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1660px)
+{
+
+}
+@media screen and (max-width: 1536px)
+{
+    nav{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
     header img{
         width: 30%;
         padding-top: 10px;
@@ -326,32 +364,4 @@ article button a:hover{
         height: 3rem;
     }
 
-}
-@media screen and (max-width: 470px)
-{
-    article h1
-    {
-        font-size: 25px;
-    }
-    article p
-    {
-        font-size: 15px;
-    }
-    .card1 b{
-        font-size: 25px;
-    }
-}
-@media screen and (max-width: 420px)
-{
-    article h1
-    {
-        font-size: 22px;
-    }
-    article p
-    {
-        font-size: 15px;
-    }
-    .card1 b{
-        font-size: 20px;
-    }
 }
