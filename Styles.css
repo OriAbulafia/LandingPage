@@ -26,25 +26,22 @@ body
     padding-top: 0%;
 }
 nav{
-    margin: 0.7% auto;
+    width: 60%;
+    margin: 0 auto;
+    display: block;
     direction: rtl;
 }
-nav ul{
-    display: flex;
-    justify-content: center;
-    margin: 0;
-}
-nav ul li{
-    display: inline;
-    margin: 0 1%;
-    font-weight: bold;
-}
-nav ul li a{
+nav a{
+    display: inline-block;
     text-decoration: none;
     color: #A47B2D;
+    text-align: center;
+    font-weight: bold;
     font-size: 17px;
+    width: 16%;
+    padding: 2% 0.5%;
 }
-nav ul li a:hover{
+nav a:hover{
     text-decoration: underline;
 }
 footer{
@@ -120,6 +117,8 @@ main
     margin: 10px 1%;
     margin-top: 0%;
     box-shadow: #A47B2D 0 0 15px;
+    overflow: hidden;
+    background-color: #A47B2D;
 }
 .card1 b{
     text-align: right;
@@ -130,6 +129,11 @@ main
     padding: 3px;
     direction: rtl;
     font-weight: lighter;
+}
+.card1 img{
+    display: block; 
+    width: 100%; 
+    height: auto;
 }
 .title{
     position: absolute;
@@ -263,20 +267,22 @@ article button a:hover{
         margin: 0 auto;
         display: block;
     }
-    nav ul{
+    nav a{
+        width: 32.5%;
+        padding-bottom: 0%;
+    }
+    /* nav a{
         display: inline-block;
-        width: 100%;
-        padding-left: 0;
-        padding-right: 0;
-    }
-    nav ul li{
-        display: block;
-        margin: 0 auto;
+        text-decoration: none;
+        color: #A47B2D;
         text-align: center;
-        padding: 1% 1%;
-        text-decoration: underline #A47B2D;
-    }
+        font-weight: bold;
+        font-size: 17px;
+        width: 16%;
+        padding: 2% 0.5%;
+    } */
     .video-container {
+        padding-top: 3%;
         width: 100%;
         margin: 0 auto;
         display: block; 
@@ -305,11 +311,6 @@ article button a:hover{
     }
     .card1 b{
         font-size: 40px;
-    }
-    .card1 img{
-        display: block; 
-        width: 100%; 
-        height: auto;
     }
     .info{
         display: block;
