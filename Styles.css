@@ -125,6 +125,11 @@ main
     overflow: hidden;
     background-color: #A47B2D;
     position: relative;
+    background-image: 'placeolderlg.jpg';
+}
+.mid
+{
+    background-image: 'placeoldermd.jpg';
 }
 .card1 b {
     text-align: right;
@@ -364,7 +369,6 @@ button a:hover{
         margin-bottom: 2%;
     }
     .info img{
-        /* content: url('https://i.ibb.co/Vgyrc8n/F24-B6173-1-nn.jpg'); */
         content: url('https://i.ibb.co/6Jw0Ghv/F24-B6173-1-new.jpg');
         width: 100%;
     }
