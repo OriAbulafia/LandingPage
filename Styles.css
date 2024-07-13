@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: myFont; 
+    src: url(KtavYadCLM-BoldItalic.ttf);
+}
 header img{
 width: 13%;
 margin: 0 auto;
@@ -157,8 +160,8 @@ main
 }
 .carousel-item {
     
-    transition: transform 1s ease-in-out, opacity 1.5s ease-in-out !important;
-    will-change: transform, opacity;
+    transition: transform 0.3s ease, opacity 0.3s ease !important;
+    will-change: transform, opacity;    
 }
 article{
     width: 100%;
@@ -172,6 +175,8 @@ article h1{
     padding: 10px;
     padding-bottom: 20px;
     color: #A47B2D;
+    font-family: myFont; 
+    word-spacing: -10px;
 }
 article p{
     font-size: 30px;
@@ -240,11 +245,13 @@ article button a:hover{
     width: 58%;
 }
 .info b{
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     text-align: center;
     display: block;
     direction: rtl;
+    font-family: myFont; 
+    word-spacing: -9px;
 }
 .info p{
     font-size: 16px;
@@ -254,6 +261,16 @@ article button a:hover{
     padding-right: 10px;
     font-weight: lighter;
     direction: rtl;
+}
+.info span{
+    font-size: 14px;
+    color: #FEFBD8;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: lighter;
+    direction: rtl;
+    
 }
 @media screen and (max-width: 1660px)
 {
@@ -331,7 +348,8 @@ article button a:hover{
         margin-bottom: 2%;
     }
     .info img{
-        content: url('https://i.ibb.co/Vgyrc8n/F24-B6173-1-nn.jpg');
+        /* content: url('https://i.ibb.co/Vgyrc8n/F24-B6173-1-nn.jpg'); */
+        content: url('https://i.ibb.co/6Jw0Ghv/F24-B6173-1-new.jpg');
         width: 100%;
     }
     .info aside{
