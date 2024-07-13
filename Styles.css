@@ -110,7 +110,7 @@ main
 {
     content: none;
 }
-.card1{
+.card1 {
     border: 2px solid #A47B2D;   
     width: 30%;
     display: inline-block;
@@ -119,8 +119,10 @@ main
     box-shadow: #A47B2D 0 0 15px;
     overflow: hidden;
     background-color: #A47B2D;
+    position: relative;
 }
-.card1 b{
+
+.card1 b {
     text-align: right;
     font-size: 25px;
     color: white;
@@ -130,39 +132,59 @@ main
     direction: rtl;
     font-weight: lighter;
 }
-.card1 img{
+
+.card1 img {
     display: block; 
     width: 100%; 
     height: auto;
 }
-.title{
+
+.title {
     position: absolute;
     right: 0;
-    bottom:25px;
+    bottom: 25px;
 }
-.card1 p{
+
+.card1 p {
     text-align: right;
     margin-right: 4%;
     font-size: 20px;
 }
-.card1 a{
+
+.card1 a {
     text-decoration: none;
     color: white;
 }
-.carousel-control-next-icon
-{
+
+.carousel-control-next-icon {
     background-color: #A47B2D;
 }
 
-.carousel-control-prev-icon
-{
+.carousel-control-prev-icon {
     background-color: #A47B2D;
 }
-.carousel-item {
-    
-    transition: transform 0.3s ease, opacity 0.3s ease !important;
-    will-change: transform, opacity;    
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
 }
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease, opacity 0.3s ease !important;
+    will-change: transform, opacity;
+}
+
+.carousel-item.active {
+    position: relative;
+}
+
 article{
     width: 100%;
     display: block;
