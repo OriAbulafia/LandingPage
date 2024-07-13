@@ -11,32 +11,7 @@
     <link rel="icon" type="image/x-icon" href="https://i.ibb.co/MP9PDg4/new-logo.png">
     <script src="https://fast.wistia.com/embed/medias/4dw26jr313.jsonp" async></script>
     <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const carouselInner = document.querySelector('.carousel-inner');
-            const images = document.querySelectorAll('.carousel-item img');
-            const nextButton = document.querySelector('.carousel-control-next');
         
-            function showSpinner() {
-                carouselInner.classList.add('loading');
-            }
-        
-            function hideSpinner() {
-                carouselInner.classList.remove('loading');
-            }
-        
-            nextButton.addEventListener('click', function() {
-                showSpinner();
-            });
-        
-            images.forEach((img) => {
-                img.addEventListener('load', hideSpinner);
-                img.addEventListener('error', hideSpinner);
-            });
-        
-            showSpinner(); // Initial spinner on page load
-        });
-        </script>
 </head>
 
 <body>
@@ -92,7 +67,6 @@
                         <li data-target="#carouselExampleIndicators2" data-slide-to="7"></li>
                     </ol>
                     <div class="carousel-inner">
-                        <div class="spinner"></div>
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="https://i.ibb.co/xSSTw2g/DSC-9938nn.jpg" alt="">
                         </div>
@@ -150,7 +124,6 @@
                     </ol>
             
                     <div class="carousel-inner">
-                        <div class="spinner"></div>
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="https://i.ibb.co/y8FzVFM/image.jpg" alt="">
                         </div>
@@ -215,7 +188,6 @@
                     </ol>
                     
                     <div class="carousel-inner">
-                        <div class="spinner"></div>
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="https://i.ibb.co/TTs7t8N/image.jpg" alt="">
                         </div>
@@ -273,7 +245,6 @@
                         <li data-target="#carouselExampleIndicators3" data-slide-to="9"></li>
                     </ol>
                     <div class="carousel-inner">
-                        <div class="spinner"></div>
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="https://i.ibb.co/zJ30rWk/image.jpg" alt="">
                         </div>
@@ -335,7 +306,6 @@
                     </ol>
 
                     <div class="carousel-inner">
-                        <div class="spinner"></div>
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="https://i.ibb.co/6HB7q9F/image.jpg" alt="">
                         </div>
@@ -399,7 +369,6 @@
                     </ol>
                   
                     <div class="carousel-inner">
-                        <div class="spinner"></div>
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="https://i.ibb.co/8jZ3K0b/image.jpg" alt="">
                         </div>
@@ -468,7 +437,6 @@
                         <li data-target="#carouselExampleIndicators9" data-slide-to="11"></li>
                     </ol>
                     <div class="carousel-inner">
-                        <div class="spinner"></div>
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="https://i.ibb.co/Ytc3217/image.jpg" alt="">
                         </div>
@@ -533,7 +501,6 @@
                     </ol>
 
                     <div class="carousel-inner">
-                        <div class="spinner"></div>
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="https://i.ibb.co/qYFHCqC/image.jpg" alt="">
                         </div>
@@ -585,7 +552,6 @@
                     </ol>
 
                     <div class="carousel-inner">
-                        <div class="spinner"></div>
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="https://i.ibb.co/T4BKZHp/image.jpg" alt="">
                         </div>
