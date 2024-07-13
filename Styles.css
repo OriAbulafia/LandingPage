@@ -180,11 +180,9 @@ main
     transition: transform 0.3s ease, opacity 0.3s ease !important;
     will-change: transform, opacity;
 }
-
 .carousel-item.active {
     position: relative;
 }
-
 
 article{
     width: 100%;
